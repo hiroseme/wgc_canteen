@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+.connected_msg {
+    text-align: center;
+    color: darkgrey;
+    margin:0.5rem;
+    font-size:15px;
+}
+
+.not_connected_msg {
+    text-align: center;
+    color: red;
+}
+
+.heading_container {
+    width: 100%;
+    text-align: center;
+
+}
+
+.social_media {
+    width: 20rem;
+    float: right;
+}
+
+.sub_heading {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: grey;
+}
+
+.wgc_logo {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    margin-left: 20rem;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+h1 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 0px;
+    font-weight: 100;
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 100;
+    background-color: rgba(250, 250, 250, 0.6);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 100;
+    margin: 0;
+}
+
+.top_nav a {
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    background-color: teal;
+    padding: 10px;
+    text-decoration: none;
+    margin: auto;
+    border: lightgrey solid 2px;
+    height: 2rem;
+}
+
+
+.top_nav a:hover {
+    background-color: lightgrey;
+    color:teal
+}
+
+.top_nav {
+    text-align: left;
+    background-color: teal;
+    overflow: visible;
+    height: 2rem;
+    width: 100%;
+}
+
+.top_nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+img {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+
+.msg_box {
+    margin: auto;
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    border: 5px solid teal;
+}
+
+.text_box {
+    margin: auto;
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    box-shadow: inset 0 0 10px grey;
+}
+
+date {
+    font-size: 25px;
+    text-align: left;
+    color: grey;
+    float: right;
+}
+
+.notices {
+    color: indianred;
+    text-align: center;
+    width: 80%;
+    font-size: 40px;
+    border: 5px solid indianred;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.index_heading {
+    color: teal;
+    text-align: center;
+    width: 80%;
+    font-size: 40px;
+    border: teal 5px solid;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+}
+
+.welcome_msg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    text-align: left;
+    padding-top: 7rem;
+    background-image: url(https://oversixtydev.blob.core.windows.net/media/7836262/shutterstock_1713308314-1.jpg);
+}
+
+.icon_container {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.icon_container2 {
+    width: 160px;
+    min-height: 160px;
+    margin: 2.5rem;
+    display: inline-block;
+    color: grey;
+    padding:5px;
+}
+
+.icon_container2:hover {
+    color: cornflowerblue;
+}
+
+.sweets_icon {
+    width: 150px;
+    height: 150px;
+    background-image: url("sweets_icon.jpg");
+    background-size: contain;
+}
+
+.sweets_icon:hover {
+    background-image: url("sweets_icon2.jpg");
+}
+
+.drinks_icon {
+    width: 150px;
+    height: 150px;
+    background-image: url("drinks_icon.jpg");
+    background-size: contain;
+}
+
+.drinks_icon:hover {
+    background-image: url("drinks_icon2.jpg");
+}
+
+.lunches_icon {
+    width: 150px;
+    height: 150px;
+    background-image: url("lunches_icon.jpg");
+    background-size: contain;
+}
+
+.lunches_icon:hover {
+    background-image: url("lunches_icon2.jpg");
+}
+
+.snacks_icon {
+    width: 150px;
+    height: 150px;
+    background-image: url("snacks_icon.jpg");
+    background-size: contain;
+}
+
+.snacks_icon:hover {
+    background-image: url("snacks_icon2.jpg");
+}
+
+.specials_icon {
+    width: 150px;
+    height: 150px;
+    background-image: url("specials_icon.jpg");
+    background-size: contain;
+}
+
+.specials_icon:hover {
+    background-image: url("specials_icon2.jpg");
+}
+
+.full_menu_button {
+    background-color:cornflowerblue;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    color:white;
+    padding:10px;
+    margin:auto;
+    border-radius: 10px;
+    width:20rem;
+    border:5px solid cornflowerblue;
+    margin-top:20px;
+}
+
+.full_menu_button:hover {
+    border-color:lightgrey;
+
+}
+
+.full_menu_button:active{
+    background-color:lightgrey;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: teal;
+    width: 100%;
+    height: 50vh;
+}
+
+.footer_container {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+table {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: "Comic Sans", cursive;
+}
+
+.fs70 {
+    font-size: 70px;
+}
+
+red {
+    color: indianred;
+}
+
+yellow {
+    color: gold;
+}
+
+purple {
+    color: mediumpurple;
+}
+
+green {
+    color: limegreen;
+}
+
+blue {
+    color: cornflowerblue;
+}

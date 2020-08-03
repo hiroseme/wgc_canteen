@@ -1,13 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+.search{
+    display:inline-block;
+    margin:10px;
+}
+
+.search_results_head {
+    text-align:center;
+    margin:auto;
+    font-size:25px;
+    color:teal;
+    text-decoration:underline;
+    font-style: italic;
+    margin-top:2rem;
+
+}
+
+.search_results_container {
+    width:60%;
+    margin:auto;
+}
+.search_btn {
+    background-color:#4CAF50;
+    color:white;
+    border:0px;
+    padding:5px;
+    border-radius:10px;
+}
+
+.search_text {
+    color:grey;
+    padding:5px;
+}
+
+.search_btn:hover {
+    background-color:palegreen;
+}
+
+a {
+    text-decoration:none;
+}
+
+nav {
+    width: 50%;
+    float: right;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: teal;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+nav a:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+
+.nav a.active:hover {
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
 .connected_msg {
     text-align: center;
     color: darkgrey;
-    margin:0.5rem;
-    font-size:15px;
+    margin: 0.5rem;
+    font-size: 15px;
 }
 
 .not_connected_msg {
@@ -15,15 +96,16 @@
     color: red;
 }
 
-.heading_container {
-    width: 100%;
-    text-align: center;
-
+.w50 {
+    width: 50%;
+    display: inline-block;
 }
 
-.social_media {
-    width: 20rem;
-    float: right;
+.heading_container {
+    text-align: left;
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    width: 100%;
 }
 
 .sub_heading {
@@ -36,41 +118,111 @@
 }
 
 .wgc_logo {
-    width: 100px;
-    height: 100px;
-    padding-top: 20px;
-    margin-left: 20rem;
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
 }
 
 body {
     width: 100%;
 }
 
-main {
-    min-height: 100vh;
-    width: 100%;
+
+
+.main_index {
+    width: 80%;
     margin: auto;
+    overflow: auto;
+    border-left: 5px palegreen dotted;
+    border-right: 5px palegreen dotted;
+    margin-top: 2rem;
     overflow: auto;
 }
 
-h1 {
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 0px;
-    font-weight: 100;
-    padding: 0px;
-    padding-top: 10px;
-    margin: 0px;
+main {
+    overflow: hidden;
 }
 
-h2 {
-    font-size: 35px;
+.menu_display {
+    width: 50%;
+    margin-top: 3rem;
+    float: left;
+    margin-left: 3rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu_table th, td {
+    padding:15px;
+    text-align:left;
+}
+
+.menu_table_header {
+    background-color:palegreen;
+}
+
+.menu_table tr.menu_table_header:hover {
+    background-color:palegreen;
+}
+
+.menu_table tr:hover {
+    background-color:rgb(235,235,235);
+}
+
+.menu_table {
+    width:100%;
+    margin:auto;
+    font-size:25px;
+    padding:20px;
+}
+
+
+.menu_header {
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: underline;
+    color: teal;
     font-weight: 100;
-    background-color: rgba(250, 250, 250, 0.6);
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.category_column {
+    width: 30%;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    float: left;
+}
+
+.category_row {
+    width: 100%;
+    display: block;
+}
+
+.category_font {
+    font-size: 30px;
+    text-align: right;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.category_border_top {
+    border-top: palegreen dotted 5px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    text-align: left;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px;
+    color: teal;
 }
 
 h3 {
@@ -80,36 +232,14 @@ h3 {
     margin: 0;
 }
 
-.top_nav a {
-    color: white;
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 25px;
-    background-color: teal;
-    padding: 10px;
-    text-decoration: none;
-    margin: auto;
-    border: lightgrey solid 2px;
-    height: 2rem;
+.text_right {
+    text-align: right;
 }
 
-
-.top_nav a:hover {
-    background-color: lightgrey;
-    color:teal
-}
-
-.top_nav {
+.text_left {
     text-align: left;
-    background-color: teal;
-    overflow: visible;
-    height: 2rem;
-    width: 100%;
 }
 
-.top_nav a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 
 img {
     padding: 0px;
@@ -128,15 +258,17 @@ img {
     border: 5px solid teal;
 }
 
-.text_box {
-    margin: auto;
-    width: 50%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    text-align: center;
-    font-size: 25px;
-    padding: 50px;
-    box-shadow: inset 0 0 10px grey;
+.notices {
+    float: left;
+    width: 28.5%;
+    font-size: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 300px;
+}
+
+.border_right {
+    border-right: lightgrey 2px dotted;
 }
 
 date {
@@ -144,37 +276,44 @@ date {
     text-align: left;
     color: grey;
     float: right;
+    margin-right: 1rem;
+    margin-top: 3rem;
 }
 
-.notices {
-    color: indianred;
+.notices_container {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.notices_header {
+    background-color: indianred;
     text-align: center;
-    width: 80%;
-    font-size: 40px;
-    border: 5px solid indianred;
+    width: 90%;
+    font-size: 30px;
     margin: auto;
-    margin-top: 5rem;
     margin-bottom: 3rem;
+    color: white;
 }
 
 .index_heading {
     color: teal;
     text-align: center;
-    width: 80%;
     font-size: 40px;
-    border: teal 5px solid;
     margin: auto;
-    margin-bottom: 3rem;
-    margin-top: 10rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: underline;
+    margin-top: 25rem;
 }
 
-.welcome_msg {
+.index_top {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
     text-align: left;
     padding-top: 7rem;
+    padding-bottom: 7rem;
     background-image: url(https://oversixtydev.blob.core.windows.net/media/7836262/shutterstock_1713308314-1.jpg);
 }
 
@@ -183,24 +322,34 @@ date {
     margin: auto;
     overflow: auto;
     text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .icon_container2 {
-    width: 160px;
-    min-height: 160px;
-    margin: 2.5rem;
+    width: 130px;
+    min-height: 130px;
+    margin: 2rem;
     display: inline-block;
     color: grey;
-    padding:5px;
+    padding: 5px;
 }
 
 .icon_container2:hover {
     color: cornflowerblue;
 }
 
+.icon100 {
+    width:100px;
+    height:100px;
+}
+
+.icon70 {
+    width:70px;
+    height:70px;
+    display:inline-block;
+}
 .sweets_icon {
-    width: 150px;
-    height: 150px;
     background-image: url("sweets_icon.jpg");
     background-size: contain;
 }
@@ -210,8 +359,6 @@ date {
 }
 
 .drinks_icon {
-    width: 150px;
-    height: 150px;
     background-image: url("drinks_icon.jpg");
     background-size: contain;
 }
@@ -221,8 +368,6 @@ date {
 }
 
 .lunches_icon {
-    width: 150px;
-    height: 150px;
     background-image: url("lunches_icon.jpg");
     background-size: contain;
 }
@@ -232,8 +377,6 @@ date {
 }
 
 .snacks_icon {
-    width: 150px;
-    height: 150px;
     background-image: url("snacks_icon.jpg");
     background-size: contain;
 }
@@ -243,8 +386,6 @@ date {
 }
 
 .specials_icon {
-    width: 150px;
-    height: 150px;
     background-image: url("specials_icon.jpg");
     background-size: contain;
 }
@@ -254,54 +395,78 @@ date {
 }
 
 .full_menu_button {
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 25px;
-    color:white;
-    padding:10px;
-    margin:auto;
+    color: white;
+    padding: 10px;
+    margin: auto;
     border-radius: 10px;
-    width:20rem;
-    border:5px solid cornflowerblue;
-    margin-top:20px;
+    width: 20rem;
+    border: 5px solid cornflowerblue;
+    margin-top: 20px;
 }
 
 .full_menu_button:hover {
-    border-color:lightgrey;
+    border-color: lightgrey;
 
 }
 
-.full_menu_button:active{
-    background-color:lightgrey;
+.full_menu_button:active {
+    background-color: lightgrey;
 }
 
 
-
-
-
-
-
-footer {
+.footer {
     background-color: teal;
     width: 100%;
-    height: 50vh;
+    height: 40rem;
+    margin-top: 2rem;
 }
 
 .footer_container {
-    width: 50%;
-    float: left;
-    padding: 20px;
+    width: 100%;
 }
 
-table {
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    font-family: "Comic Sans", cursive;
+
+
+.category_container {
+    width: 30%;
+    display: inline-block;
+    background-color: red;
+    float: left;
+}
+
+.category_icon {
+    width: 70px;
+    height: 70px;
+}
+
+.menu_container {
+    width: 70%;
+    display: inline-block;
+    background-color: blue;
+    float: right;
 }
 
 .fs70 {
     font-size: 70px;
+}
+
+.footer_table {
+    margin: 3rem;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    float: left;
+    width: 350px;
+}
+
+.location_container {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    margin: 3rem;
+    float: left;
+    width: 300px;
 }
 
 red {
@@ -322,4 +487,9 @@ green {
 
 blue {
     color: cornflowerblue;
+}
+
+.temp_icon {
+    width:50px;
+    height:50px;
 }

@@ -5,9 +5,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+.info_btn {
+    background-color:mintcream;
+    border-color:palegreen;
+    padding:5px;
+}
+
+.search_error {
+    color:grey;
+}
 .search{
     display:inline-block;
     margin:10px;
+}
+
+.search2 {
+    font-size:30px;
+    padding:15px;
+    display:inline-block;
 }
 
 .search_results_head {
@@ -31,15 +46,30 @@
     border:0px;
     padding:5px;
     border-radius:10px;
+    display:inline-block;
 }
 
+.container80 {
+    width:80%;
+    margin:auto;
+    text-align:center;
+
+}
 .search_text {
     color:grey;
     padding:5px;
 }
 
+.fs30 {
+    font-size:30px;
+}
 .search_btn:hover {
     background-color:palegreen;
+}
+
+.next_container {
+    margin:auto;
+    width:300px;
 }
 
 a {
@@ -73,7 +103,7 @@ nav a:hover {
 }
 
 
-.nav a.active:hover {
+a.active:hover {
     background-color: #4CAF50;
     color: white;
 
@@ -127,8 +157,6 @@ body {
     width: 100%;
 }
 
-
-
 .main_index {
     width: 80%;
     margin: auto;
@@ -139,17 +167,25 @@ body {
     overflow: auto;
 }
 
+.main_menu {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-top: 2rem;
+    overflow: auto;
+}
+
 main {
     overflow: hidden;
 }
 
 .menu_display {
-    width: 50%;
+    width: 80%;
     margin-top: 3rem;
-    float: left;
-    margin-left: 3rem;
-    overflow: hidden;
     text-align: center;
+    display: inline-block;
+    float:right;
+    margin:auto;
 }
 
 .menu_table th, td {
@@ -158,6 +194,17 @@ main {
 }
 
 .menu_table_header {
+    background-color:palegreen;
+}
+
+.menu_table_button {
+    background-color:palegreen;
+    padding-top:5px;
+    padding-bottom:0px;
+    text-align:center;
+}
+
+.menu_table tr.menu_table_button:hover {
     background-color:palegreen;
 }
 
@@ -170,12 +217,23 @@ main {
 }
 
 .menu_table {
-    width:100%;
+    width:90%;
     margin:auto;
-    font-size:25px;
-    padding:20px;
+    margin-left:3rem;
+    font-size:23px;
+    border:2px palegreen solid;
+    margin-top:2rem;
 }
 
+.menu_button_table {
+    width:90%;
+    margin:auto;
+    margin-left:3rem;
+    font-size:23px;
+    border:2px palegreen solid;
+    margin-top:2rem;
+    margin-bottom:5rem;
+}
 
 .menu_header {
     font-style: italic;
@@ -185,29 +243,67 @@ main {
     font-weight: 100;
     margin: 0px;
     padding: 0px;
+    margin-left:3rem;
 
 }
 
+.inline_block{
+    display:inline-block;
+}
+.product_info_container {
+    width:600px;
+    height:700px;
+    overflow:hidden;
+    border:3px teal solid;
+    margin:auto;
+    padding:30px;
+    font-size:30px;
+    margin-top:3rem;
+}
+
+.product_name {
+    font-size:50px;
+    color:orange;
+    margin-top:2rem;
+    margin-bottom:0rem;
+    padding:0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
 .category_column {
-    width: 30%;
-    margin-top: 3rem;
-    margin-left: 7rem;
-    float: left;
+    width: 80px;
+   display:inline-block;
+    margin-top:3rem;
+    float:left;
 }
 
 .category_row {
     width: 100%;
-    display: block;
+}
+
+.next {
+    background-color:teal;
+    color:white;
+    width:50px;
+    height:50px;
+    float:left;
+    border-radius:100%;
+    font-size:25px;
+    margin-left:30px;
 }
 
 .category_font {
-    font-size: 30px;
-    text-align: right;
-    font-family: sans-serif;
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
+    font-size:18px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin:0px;
+    padding:0px;
 }
+
+.category_font:hover {
+    color:rgba(0,0,0,0);
+}
+
 
 .category_border_top {
     border-top: palegreen dotted 5px;

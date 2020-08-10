@@ -29,7 +29,7 @@ include 'connection.php';
             <a href="about.php">ABOUT</a>
 
             <form class="search" action="search_results.php" method="post">
-                <input class="search_text" type="text" value="Search for a product..." name='search_customer'>
+                <input class="search_text" type="text" onclick="value=''" value="Search for a product..." name='search_customer'>
                 <input class="search_btn" type="submit" name="submit" value="Search">
             </form>
 

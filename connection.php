@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "hiroseme", "megaship55", "hiroseme_cafe2");
+$con = mysqli_connect("localhost", "hiroseme", "megaship55", "hiroseme_canteen");
 if (mysqli_connect_errno()) {
     echo "<p class='not_connected_msg'>Failed to connect to MySQL:" . mysqli_connect_error();
     die();

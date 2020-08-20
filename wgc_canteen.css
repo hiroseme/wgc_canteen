@@ -5,75 +5,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+.red_back {
+    background-color: red;
+}
+
 .info_btn {
-    background-color:mintcream;
-    border-color:palegreen;
-    padding:5px;
+    background-color: mintcream;
+    border-color: palegreen;
+    padding: 5px;
 }
 
 .search_error {
-    color:grey;
+    color: grey;
 }
-.search{
-    display:inline-block;
-    margin:10px;
+
+.search {
+    display: inline-block;
+    margin: 10px;
 }
 
 .search2 {
-    font-size:30px;
-    padding:15px;
-    display:inline-block;
+    font-size: 30px;
+    padding: 15px;
+    display: inline-block;
 }
 
 .search_results_head {
-    text-align:center;
-    margin:auto;
-    font-size:25px;
-    color:teal;
-    text-decoration:underline;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    color: teal;
+    text-decoration: underline;
     font-style: italic;
-    margin-top:2rem;
+    margin-top: 2rem;
 
 }
 
 .search_results_container {
-    width:60%;
-    margin:auto;
+    width: 60%;
+    margin: auto;
 }
+
 .search_btn {
-    background-color:#4CAF50;
-    color:white;
-    border:0px;
-    padding:5px;
-    border-radius:10px;
-    display:inline-block;
+    background-color: #4CAF50;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 .container80 {
-    width:80%;
-    margin:auto;
-    text-align:center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 
 }
+
 .search_text {
-    color:grey;
-    padding:5px;
+    color: grey;
+    padding: 5px;
 }
 
-.fs30 {
-    font-size:30px;
-}
 .search_btn:hover {
-    background-color:palegreen;
+    background-color: palegreen;
 }
 
 .next_container {
-    margin:auto;
-    width:300px;
+    margin: auto;
+    width: 200px;
+    display: block;
+}
+
+.select_container {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    margin:2rem;
+}
+
+.margin0 {
+    margin:0px;
+}
+
+.w50 {
+    width:50%;
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 nav {
@@ -157,82 +178,98 @@ body {
     width: 100%;
 }
 
-.main_index {
+main{
     width: 80%;
     margin: auto;
-    overflow: auto;
-    border-left: 5px palegreen dotted;
-    border-right: 5px palegreen dotted;
     margin-top: 2rem;
+    height:auto;
     overflow: auto;
 }
 
-.main_menu {
-    width: 80%;
-    margin: auto;
-    overflow: auto;
-    margin-top: 2rem;
-    overflow: auto;
+.menu_icon_container {
+    width: 100%;
+    border-top: palegreen dotted 5px;
+    border-bottom: palegreen dotted 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
 }
 
-main {
-    overflow: hidden;
+.menu_icon {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.no_margin {
+    margin: 0px;
 }
 
 .menu_display {
-    width: 80%;
+    width: 70%;
     margin-top: 3rem;
     text-align: center;
     display: inline-block;
-    float:right;
-    margin:auto;
+    float: right;
 }
 
 .menu_table th, td {
-    padding:15px;
-    text-align:left;
+    padding: 15px;
+    text-align: left;
 }
 
 .menu_table_header {
-    background-color:palegreen;
+    background-color: palegreen;
 }
 
-.menu_table_button {
-    background-color:palegreen;
-    padding-top:5px;
-    padding-bottom:0px;
-    text-align:center;
+.reset_button {
+    background-color: #4CAF50;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 1rem;
+}
+
+.reset_button:hover {
+    background-color: palegreen;
 }
 
 .menu_table tr.menu_table_button:hover {
-    background-color:palegreen;
+    background-color: palegreen;
 }
 
 .menu_table tr.menu_table_header:hover {
-    background-color:palegreen;
+    background-color: palegreen;
 }
 
 .menu_table tr:hover {
-    background-color:rgb(235,235,235);
+    background-color: rgb(235, 235, 235);
 }
 
 .menu_table {
-    width:90%;
-    margin:auto;
-    margin-left:3rem;
-    font-size:23px;
-    border:2px palegreen solid;
-    margin-top:2rem;
+    width: 90%;
+    margin: auto;
+    margin-left: 3rem;
+    font-size: 23px;
+    border: 2px palegreen solid;
+    margin-top: 2rem;
 }
 
 .menu_button_table {
-    width:90%;
-    margin:auto;
-    margin-left:3rem;
-    font-size:23px;
-    border:2px palegreen solid;
-    margin-top:2rem;
-    margin-bottom:5rem;
+    font-size: 23px;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.sidebar {
+    width: 30%;
+    display: inline-block;
+    overflow: auto;
+    text-align: center;
 }
 
 .menu_header {
@@ -243,70 +280,161 @@ main {
     font-weight: 100;
     margin: 0px;
     padding: 0px;
-    margin-left:3rem;
-
 }
 
-.inline_block{
-    display:inline-block;
+.about_header {
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: underline;
+    color: teal;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
 }
-.product_info_container {
-    width:600px;
-    height:700px;
-    overflow:hidden;
-    border:3px teal solid;
+
+.about_us_img {
+    width:300px;
+    height:300px;
     margin:auto;
-    padding:30px;
+    margin-top:2rem;
+    margin-bottom:2rem;
+
+    display:block;
+    border-radius:100px;
+    background-image:url("coffee.jpg");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+iframe {
+    border:0px;
+    width:600px;
+    height:450px;
+}
+
+.about_container {
+    width:60%;
+    height:auto;
+    margin:auto;
+    margin-bottom:2rem;
+}
+.about_us_text {
+    width:100%;
+    height:300px;
     font-size:30px;
-    margin-top:3rem;
+    display:block;
+    margin:auto;
+    text-align:center;
+
+}
+
+.contact_us_text {
+    width:70%;
+    text-align:center;
+    height:300px;
+    font-size:30px;
+    margin:auto;
+    display:block;
+    padding-top:2rem;
+}
+.inline_block {
+    display: inline-block;
+}
+
+.product_info_container {
+    width: 50%;
+    overflow: auto;
+    border: 3px teal solid;
+    padding: 30px;
+    font-size: 25px;
+    margin-top: 3rem;
+    display: inline-block;
+    float: left;
 }
 
 .product_name {
-    font-size:50px;
-    color:orange;
-    margin-top:2rem;
-    margin-bottom:0rem;
-    padding:0px;
+    font-size: 40px;
+    color: orange;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    padding: 0px;
     font-family: 'Balsamiq Sans', cursive;
 }
+
 .category_column {
     width: 80px;
-   display:inline-block;
-    margin-top:3rem;
-    float:left;
+    display: block;
+    margin-top: 3rem;
 }
 
-.category_row {
-    width: 100%;
+.next_down {
+    background-color: sandybrown;
+    color: white;
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    float: left;
+    border: none;
 }
 
-.next {
-    background-color:teal;
-    color:white;
-    width:50px;
-    height:50px;
-    float:left;
-    border-radius:100%;
-    font-size:25px;
-    margin-left:30px;
+.next_up {
+    background-color: sandybrown;
+    color: white;
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-left: 30px;
+    float: right;
+    border: none;
+}
+
+.next_up:hover {
+    background-color: orange;
+}
+
+.next_down:hover {
+    background-color: orange;
+}
+
+.menu_button_table input {
+    background-color: sandybrown;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.menu_button_table form {
+    text-align: center;
+}
+
+.menu_button_table th {
+    color: teal;
+    text-decoration: underline;
+}
+
+.menu_button_table input:hover {
+    background-color: orange;
 }
 
 .category_font {
-    font-size:18px;
+    font-size: 18px;
     border: none;
     text-decoration: none;
     cursor: pointer;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .category_font:hover {
-    color:rgba(0,0,0,0);
-}
-
-
-.category_border_top {
-    border-top: palegreen dotted 5px;
+    color: rgba(0, 0, 0, 0);
 }
 
 h1 {
@@ -336,6 +464,10 @@ h3 {
     text-align: left;
 }
 
+.text_center {
+    text-align:center;
+}
+
 
 img {
     padding: 0px;
@@ -361,13 +493,14 @@ img {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     height: 300px;
+    margin-bottom: 5rem;
 }
 
 .border_right {
     border-right: lightgrey 2px dotted;
 }
 
-date {
+.date {
     font-size: 25px;
     text-align: left;
     color: grey;
@@ -378,7 +511,7 @@ date {
 
 .notices_container {
     width: 100%;
-    margin-bottom: 5rem;
+    height: 300px;
 }
 
 .notices_header {
@@ -407,10 +540,42 @@ date {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    text-align: left;
+    height: 130px;
+    text-align: center;
     padding-top: 7rem;
     padding-bottom: 7rem;
-    background-image: url(https://oversixtydev.blob.core.windows.net/media/7836262/shutterstock_1713308314-1.jpg);
+    background-image: url("noodles.jpg");
+    display: block;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5rem;
+    margin-top:5rem;
+}
+
+.location_container {
+    width: 100%;
+    height: 650px;
+    text-align:center;
+}
+
+.address_container {
+    width: 30%;
+    font-size: 30px;
+    float: right;
+    margin-right: 4rem;
+}
+
+.fs25 {
+    font-size:25px;
+}
+
+.fs30 {
+    font-size: 30px;
+}
+
+
+.fs70 {
+    font-size: 70px;
 }
 
 .icon_container {
@@ -420,6 +585,9 @@ date {
     text-align: center;
     padding-top: 3rem;
     margin-bottom: 5rem;
+    border-top: palegreen dotted 5px;
+    border-bottom: palegreen dotted 5px;
+    padding-bottom: 3rem;
 }
 
 .icon_container2 {
@@ -436,15 +604,15 @@ date {
 }
 
 .icon100 {
-    width:100px;
-    height:100px;
+    width: 100px;
+    height: 100px;
 }
 
 .icon70 {
-    width:70px;
-    height:70px;
-    display:inline-block;
+    width: 70px;
+    height: 70px;
 }
+
 .sweets_icon {
     background-image: url("sweets_icon.jpg");
     background-size: contain;
@@ -490,8 +658,21 @@ date {
     background-image: url("specials_icon2.jpg");
 }
 
+.margin_bottom {
+    margin-bottom: 5rem;
+}
+
+.specials_container {
+    width: 60%;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    border: palegreen 3px solid;
+    margin-top: 2rem;
+}
+
 .full_menu_button {
-    background-color: cornflowerblue;
+    background-color: #4CAF50;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 25px;
     color: white;
@@ -499,31 +680,26 @@ date {
     margin: auto;
     border-radius: 10px;
     width: 20rem;
-    border: 5px solid cornflowerblue;
     margin-top: 20px;
 }
 
+
 .full_menu_button:hover {
-    border-color: lightgrey;
+    background-color: palegreen;
 
 }
-
-.full_menu_button:active {
-    background-color: lightgrey;
-}
-
 
 .footer {
     background-color: teal;
     width: 100%;
-    height: 40rem;
+    height: 25rem;
     margin-top: 2rem;
+    color:lightgrey;
 }
 
 .footer_container {
     width: 100%;
 }
-
 
 
 .category_container {
@@ -545,47 +721,49 @@ date {
     float: right;
 }
 
-.fs70 {
-    font-size: 70px;
-}
-
 .footer_table {
     margin: 3rem;
     font-size: 20px;
     font-family: 'Libre Baskerville', serif;
     float: left;
-    width: 350px;
+    width: 500px;
+    color:lightgrey;
 }
 
-.location_container {
+.location_container2 {
     font-size: 20px;
     font-family: 'Libre Baskerville', serif;
     margin: 3rem;
     float: left;
-    width: 300px;
+    width: 500px;
 }
 
-red {
+.specials_text {
+    font-size: 30px;
+    color: indianred;
+    text-align: center;
+}
+
+.price_old {
+    text-decoration-line: line-through;
+    color: grey;
+    font-size: 20px;
+}
+
+.price_new {
+    color: indianred;
+    font-size: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.red {
     color: indianred;
 }
 
-yellow {
-    color: gold;
-}
-
-purple {
-    color: mediumpurple;
-}
-
-green {
-    color: limegreen;
-}
-
-blue {
-    color: cornflowerblue;
-}
-
 .temp_icon {
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
 }
